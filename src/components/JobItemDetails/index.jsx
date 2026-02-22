@@ -8,7 +8,7 @@ import { TailSpin } from 'react-loader-spinner'
 import { useParams } from 'react-router-dom'
 
 import Header from '../Header'
-import SkillsCard from '../SkillsCard'
+import SkillsCard from '../skillsCard'
 import SimilarJobItem from '../SimilarJobItem'
 import './index.css'
 
