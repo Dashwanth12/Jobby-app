@@ -1,0 +1,6 @@
+.job-profile-container {
+    background-color: #000000;
+    display: flex;
+    padding: 25px;
+    min-height: 100vh;
+}

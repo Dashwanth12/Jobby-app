@@ -1,0 +1,61 @@
+.profile-card {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+    background-size: cover;
+    background-position: center;
+    width: 260px;
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 24px;
+    min-height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.profile-pic {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-bottom: 12px;
+}
+
+.profile-name {
+    color: #6366f1;
+    /* Jobby theme color */
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.bio {
+    color: #2c364c;
+    /* Dark readable text on light bg */
+    font-size: 14px;
+    margin-top: 8px;
+    line-height: 1.4;
+}
+
+.loading-view,
+.failure-view {
+    align-items: center;
+    justify-content: center;
+}
+
+.loading-text {
+    color: #2c364c;
+    font-weight: 500;
+}
+
+.retry-btn {
+    background-color: #4f46e5;
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.retry-btn:hover {
+    opacity: 0.9;
+}

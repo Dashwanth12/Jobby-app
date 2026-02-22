@@ -1,0 +1,32 @@
+.fliter-heading {
+    color: white;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.boxes-card {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.items {
+    color: white;
+    margin: 10px;
+}
+
+.salary-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.salary-card {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.line {
+    width: 60%;
+    border: 1px solid rebeccapurple;
+}
